@@ -1,4 +1,6 @@
-### 来自[dtm](https://dtm.pub/ref/gozero.html)的灵感，基于redis分布式锁的分布式事务。
+### 来自[dtm](https://dtm.pub/ref/gozero.html)的灵感，[saga基于redis分布式锁的分布式事务，以go-zero为列](https://github.com/H-H1/SAGA-go-zero)
+
+
 
 常见的CAP理论中，C 一致性，A 可用性，P 分区容错性，一般保证P和A，舍弃C，以及最终一致性，本文实现了AP和最终一致性。并给补偿操作有重试机制。
 
