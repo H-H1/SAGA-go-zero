@@ -75,7 +75,7 @@
 
 
 
-压测为5000qps下，最终一致性也是可以保证的
+压测为4000-5000qps下，98%的最终一致性也是可以保证的
 
 ![image-20241214210804031](https://github.com/user-attachments/assets/f6485935-cff3-481c-b66a-7b2ba6aaebb1)
 
