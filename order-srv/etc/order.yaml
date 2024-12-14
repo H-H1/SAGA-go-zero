@@ -1,0 +1,26 @@
+Name: order.rpc
+ListenOn: 0.0.0.0:9001
+Mode: dev
+Timeout: 10000
+
+
+# //if consul use
+#Consul:
+#  Host: 127.0.0.1:8500
+#  Key: order.rpc
+#  Meta:
+#    Protocol: grpc
+#  Tag:
+#    -
+#      tag
+#      rpc
+
+DB:
+  DataSource: root:PXDN93VRKUm8TeE7@tcp(127.0.0.1:33069)/dtm_gozero?charset=utf8mb4&parseTime=true&loc=Asia%2FShanghai
+
+Cache:
+  Host: 127.0.0.1:36379
+  Pass: G62m50oigInC30sf
+  Type: node
+
+

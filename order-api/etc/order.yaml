@@ -1,0 +1,25 @@
+Name: order
+Host: 0.0.0.0
+Port: 8889
+Mode: dev
+Timeout: 100000
+
+#rpc
+
+OrderRpcConf:
+  Endpoints:
+    - 127.0.0.1:9001
+  NonBlock: true
+
+#OrderRpcConf:
+#  Target: consul://127.0.0.1:8500/order.rpc
+
+StockRpcConf:
+  Endpoints:
+    - 127.0.0.1:9002
+  NonBlock: true
+
+
+Retry: 5
+#StockRpcConf:
+#  Target: consul://127.0.0.1:8500/stock.rpc
