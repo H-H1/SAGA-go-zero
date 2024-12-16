@@ -1,8 +1,10 @@
-### Inspired by [dtm](https://dtm.pub/ref/gozero.html), [Saga Distributed Transactions Based on Redis Distributed Locks, Taking go-zero as an Example](https://github.com/H-H1/SAGA-go-zero)
+### Inspired by [dtm](https://dtm.pub/ref/gozero.html), Saga Distributed Transactions Based on Redis Distributed Locks, Taking go-zero as an Example
+
+github：https://github.com/H-H1/SAGA-go-zero
 
 English | [简体中文](README-cn.md)
 
-##### Under a pressure test of 4000 - 5000 qps, 98% of eventual consistency can be guaranteed.
+##### Under a pressure test of 4000 - 5000 TPS, 98% of eventual consistency can be guaranteed.
 
 > In the common CAP theory, C stands for Consistency, A for Availability, and P for Partition Tolerance. Generally, P and A are ensured while sacrificing C and opting for eventual consistency. This article achieves AP and eventual consistency and incorporates a retry mechanism for compensation operations.
 >I previously studied DTM but discovered an issue. In high-concurrency scenarios, DTM transactions are unstable, with numerous compensation operations failing, which has been verified multiple times. Hence, this article was written. The following is the sequence diagram.
@@ -73,7 +75,7 @@ The results of multiple pressure tests are consistent.
 
 
 
-Under a pressure test of 4000 - 5000 qps, 98% of eventual consistency can be guaranteed.
+Under a pressure test of 4000 - 5000 TPS, 98% of eventual consistency can be guaranteed.
 
 ![image-20241214210804031](https://github.com/user-attachments/assets/f6485935-cff3-481c-b66a-7b2ba6aaebb1)
 
