@@ -2,7 +2,9 @@
 
 github：https://github.com/H-H1/SAGA-go-zero
 
-[^本文意在一致性，如果考虑并发性能建议使用分片加本地事务去解决问题]: 
+> **This article aims for consistency. If considering concurrency performance, it is recommended to use sharding and local transactions to solve the problem**
+
+------
 
 English | [简体中文](README-cn.md)
 

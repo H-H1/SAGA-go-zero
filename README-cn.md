@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-[^This article aims for consistency. If considering concurrency performance, it is recommended to use sharding and local transactions to solve the problem]: 
+> 本文意在一致性，如果考虑并发性能建议使用分片加本地事务去解决问
 
 ##### 压测为4000-5000qps下，98%的最终一致性也是可以保证的
 
