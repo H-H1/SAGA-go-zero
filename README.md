@@ -2,6 +2,8 @@
 
 github：https://github.com/H-H1/SAGA-go-zero
 
+[^本文意在一致性，如果考虑并发性能建议使用分片加本地事务去解决问题]: 
+
 English | [简体中文](README-cn.md)
 
 ##### Under a pressure test of 4000 - 5000 TPS, 98% of eventual consistency can be guaranteed.

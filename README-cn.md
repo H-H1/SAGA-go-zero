@@ -2,6 +2,8 @@
 
 [English](README.md) | 简体中文
 
+[^This article aims for consistency. If considering concurrency performance, it is recommended to use sharding and local transactions to solve the problem]: 
+
 ##### 压测为4000-5000qps下，98%的最终一致性也是可以保证的
 
 > 常见的CAP理论中，C 一致性，A 可用性，P 分区容错性，一般保证P和A，舍弃C，以及最终一致性，本文实现了AP和最终一致性。并给补偿操作有重试机制。
